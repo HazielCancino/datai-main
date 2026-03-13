@@ -20,9 +20,7 @@ Built with Next.js, TailwindCSS, shadcn-ui, and the Vercel AI SDK. Supports Anth
 
 ## How it works
 
-<p align="center">
 ![DataAi Screenshot 2](assets/screenshots/datai4.png)
-</p>
 
 DATAI uses a 3-step AI agent pipeline:
 
@@ -34,9 +32,7 @@ DATAI uses a 3-step AI agent pipeline:
 
 ## Connect your Database
 
-<p align="center">
 ![DataAi Screenshot 3](assets/screenshots/datai3.png)
-</p>
 
 DATAI supports multiple database providers out of the box: PostgreSQL, MySQL, MongoDB, Redis, Firebase, Elastic Search, and Custom DBs.
 
