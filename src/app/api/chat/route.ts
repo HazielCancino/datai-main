@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { openai } from '@ai-sdk/openai';
 import { streamText } from "ai";
 import { displayResults } from "./tools/displayResults";
 import { queryDatabase } from "./tools/queryDatabase";
@@ -35,7 +35,7 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: anthropic("claude-3-5-sonnet-latest"),
+      model: openai("gpt-4o-mini"),
       messages,
       toolCallStreaming: true,
       tools,
