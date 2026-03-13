@@ -5,7 +5,7 @@
 </p>
 
 ---
-![DataAi Screenshot 1](assets/screenshots/swappy-20250901_171717.png)
+![DataAi Screenshot 1](assets/screenshots/swappy-20250901_171717.gif)
 
 ## About
 
