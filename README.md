@@ -4,14 +4,43 @@
   AI-powered natural language interface for your database. No SQL needed.
 </p>
 
----
 ![DataAi Screenshot 1](assets/screenshots/swappy-20250901_171717.gif)
+
+<p align="center">
+  <img src="__assets/screenshots/datai1.png" alt="DATAI Home" width="100%" />
+</p>
+
+---
 
 ## About
 
 **DATAI** is an AI agent that lets anyone query a PostgreSQL database using plain English. Ask questions like *"Who are my top customers?"* or *"Show me monthly revenue as a chart"* and DATAI generates and executes the SQL behind the scenes — returning results instantly.
 
 Built with Next.js, TailwindCSS, shadcn-ui, and the Vercel AI SDK. Supports Anthropic Claude, OpenAI, and Google Gemini as the AI provider.
+
+---
+
+## How it works
+
+<p align="center">
+  <img src="__assets/screenshots/datai4.png" alt="How DATAI works" width="100%" />
+</p>
+
+DATAI uses a 3-step AI agent pipeline:
+
+1. **Select Tables** — The agent identifies which database tables are relevant to your question
+2. **Generate Query** — It crafts an optimized SQL query using the table schemas
+3. **Make Data Understandable** — Results are returned as plain language summaries and/or interactive charts
+
+---
+
+## Connect your Database
+
+<p align="center">
+  <img src="__assets/screenshots/datai3.png" alt="Connect a Database" width="600" />
+</p>
+
+DATAI supports multiple database providers out of the box: PostgreSQL, MySQL, MongoDB, Redis, Firebase, Elastic Search, and Custom DBs.
 
 ---
 
@@ -57,7 +86,7 @@ DATABASE_NAME=datai
 
 **4. Set up the database:**
 
-Create a `datai` database in PostgreSQL, then run the seed script found in `/scripts/setup_datai.sql` to create all tables and populate them with sample data.
+Create a `datai` database in PostgreSQL, then run the seed script at `/scripts/setup_datai.sql` to create all tables and populate them with sample data.
 
 **5. Start the dev server:**
 ```bash
@@ -104,3 +133,6 @@ The sample database includes these tables:
 - [postgres.js](https://github.com/porsager/postgres) — PostgreSQL client
 - [Recharts](https://recharts.org/) — Chart visualizations
 - [Lucide Icons](https://lucide.dev/) — Icon library
+---
+
+
